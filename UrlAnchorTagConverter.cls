@@ -1,5 +1,6 @@
 /**
  * The UrlAnchorTagConverter class provides a utility method to convert URLs in a string to HTML anchor tags.
+ * Can be used in VF pages for removing long url exceding the line which may break the page UI.
  * URLs starting with 'http' or containing 'www' will be replaced with appropriate anchor tags.
  */
 public class UrlAnchorTagConverter {
